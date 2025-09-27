@@ -26,7 +26,7 @@
 
 其作用是将高级定时器产生的中断事件进行分频,避免频发触发定时器的Update Event;中断频率可以通过以下公式计算:
 
-![image.png](https://cdn.nlark.com/yuque/0/2025/png/45869737/1758291014264-810d6bb9-1f5c-4452-9797-23b130141da1.png?x-oss-process=image%2Fformat%2Cwebp)
+![image.png](Image/image.png)
 
 本项目中使用RCR是为了配合ADC采样和电流环执行, 保证在执行电流环的时候能获取到clean的电流值并能够防止直接使用定时器的Update Event导致程序跑飞.
 
