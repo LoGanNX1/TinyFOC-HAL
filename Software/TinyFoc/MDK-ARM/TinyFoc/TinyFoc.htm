@@ -3,7 +3,7 @@
 <title>Static Call Graph - [TinyFoc\TinyFoc.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image TinyFoc\TinyFoc.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6210000: Last Updated: Sat Sep 27 11:53:23 2025
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6210000: Last Updated: Sat Sep 27 16:03:26 2025
 <BR><P>
 <H3>Maximum Stack Usage =        280 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -530,8 +530,7 @@ Global Symbols
 <BR>[Address Reference Count : 1]<UL><LI> startup_stm32f411xe.o(RESET)
 </UL>
 <P><STRONG><a name="[a4]"></a>AS5600_GetAccumulateAngle</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, as5600.o(.text.AS5600_GetAccumulateAngle))
-<BR><BR>[Called By]<UL><LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
-<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
+<BR><BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_PeriodElapsedCallback
 </UL>
 
 <P><STRONG><a name="[ca]"></a>AS5600_GetAngle</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, as5600.o(.text.AS5600_GetAngle))
@@ -986,9 +985,9 @@ Global Symbols
 <P><STRONG><a name="[9e]"></a>HAL_TIM_PeriodElapsedCallback</STRONG> (Thumb, 260 bytes, Stack size 16 bytes, motor.o(.text.HAL_TIM_PeriodElapsedCallback))
 <BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = HAL_TIM_PeriodElapsedCallback &rArr; AS5600_Update &rArr; HAL_I2C_Master_Receive &rArr; I2C_WaitOnMasterAddressFlagUntilTimeout
 </UL>
-<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AS5600_GetAccumulateAngle
-<LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIDController_Update
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PIDController_Update
 <LI><a href="#[76]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AS5600_Update
+<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AS5600_GetAccumulateAngle
 <LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AS5600_GetVelocity
 </UL>
 <BR>[Called By]<UL><LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_TIM_IRQHandler
@@ -1340,11 +1339,10 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[7c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;foc_current_loop
 </UL>
 
-<P><STRONG><a name="[43]"></a>main</STRONG> (Thumb, 316 bytes, Stack size 0 bytes, main.o(.text.main))
+<P><STRONG><a name="[43]"></a>main</STRONG> (Thumb, 304 bytes, Stack size 0 bytes, main.o(.text.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 280<LI>Call Chain = main &rArr; UpperUartTask &rArr; __0sscanf &rArr; __vfscanf_char &rArr; __vfscanf &rArr; _scanf_real
 </UL>
 <BR>[Calls]<UL><LI><a href="#[77]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_f2d
-<LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;AS5600_GetAccumulateAngle
 <LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UpperUartTask
 <LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;set_motor_mode
 <LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;motor_pid_init

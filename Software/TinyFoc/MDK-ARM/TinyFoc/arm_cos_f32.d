@@ -7,10 +7,10 @@ tinyfoc/arm_cos_f32.o: ..\User\MATH\arm_cos_f32.c \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h \
   ..\Drivers\CMSIS\Include\core_cm4.h \
   D:\softs\mdk\ARM\ARMCLANG\include\stdint.h \
-  C:\Users\19643\Desktop\TinyFOC\Software\TinyFoc\Drivers\CMSIS\Include\cmsis_version.h \
-  C:\Users\19643\Desktop\TinyFOC\Software\TinyFoc\Drivers\CMSIS\Include\cmsis_compiler.h \
-  C:\Users\19643\Desktop\TinyFOC\Software\TinyFoc\Drivers\CMSIS\Include\cmsis_armclang.h \
-  C:\Users\19643\Desktop\TinyFOC\Software\TinyFoc\Drivers\CMSIS\Include\mpu_armv7.h \
+  D:\TEMP\TinyFOC_git\TinyFOC-HAL\Software\TinyFoc\Drivers\CMSIS\Include\cmsis_version.h \
+  D:\TEMP\TinyFOC_git\TinyFOC-HAL\Software\TinyFoc\Drivers\CMSIS\Include\cmsis_compiler.h \
+  D:\TEMP\TinyFOC_git\TinyFOC-HAL\Software\TinyFoc\Drivers\CMSIS\Include\cmsis_armclang.h \
+  D:\TEMP\TinyFOC_git\TinyFOC-HAL\Software\TinyFoc\Drivers\CMSIS\Include\mpu_armv7.h \
   ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
   ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
   D:\softs\mdk\ARM\ARMCLANG\include\stddef.h \

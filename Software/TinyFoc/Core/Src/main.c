@@ -144,8 +144,8 @@ int main(void)
   HAL_TIM_Base_Start_IT(&htim2);
   // 电机参数初始化
   motor_control_parm_init();
-  motor_pid_init(2.0f, 20.0f, 0.1f, 1.0f, 1.0f);
-  set_motor_mode(MOTOR_POSITION);
+  motor_pid_init(2.0f, 20.0f, 0.1f, 1.0f, 1.5f);
+  set_motor_mode(MOTOR_TORQUE);
   // 开启电流闭环控制
   current_loop_enable = 1;
 
@@ -159,13 +159,13 @@ int main(void)
       RunCycle = uwTick;
       // 处理上位机下发的数据
       UpperUartTask();  
-#if 0   // 电流环调试
+#if 1   // 电流环调试
       printf("%.2f\n", motor_control.iq_meas);
       motor_control.set_torque = testValue;
 #elif 0 // 速度环调试
       motor_control.set_vel = testValue;
       printf("%.2f\n", AS5600_GetVelocity(&AngleSensor));
-#elif 1 // 位置环调试
+#elif 0 // 位置环调试
       motor_control.set_pos = testValue;
       printf("%.2f\n", AS5600_GetAccumulateAngle(&AngleSensor));
 #endif
